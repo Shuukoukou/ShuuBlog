@@ -342,3 +342,39 @@ ul.share-group
 	background-size: cover;
 	background-position: center center;
 }
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#topmenu {
+	font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+	font-size: 14px;
+	line-height: 2;
+	position: fixed;
+	top: 0;
+	height: 80px;
+	width: 100%;
+	color: #fff;
+	z-index: 1000;
+	animation: appeare 5s ease 3s 1 normal forwards running;
+	transition: 0.7s;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.wn-wnhead-logo {
+	font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+	font-size: 14px;
+	line-height: 2;
+	color: #fff;
+	position: absolute;
+	margin: 0;
+	width: 80px;
+	height: 80px;
+	margin-top: 5px;
+	z-index: 50;
+	overflow: hidden;
+	text-indent: -9999px;
+}
