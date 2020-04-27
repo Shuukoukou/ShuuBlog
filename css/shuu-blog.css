@@ -28,7 +28,7 @@ nav{
 nav ul{
 	list-style: none;
 	margin: 0;
-	float: right;
+	float: none;
 }
 
 nav ul li, nav .logo
@@ -45,6 +45,30 @@ nav ul li a{
 	height: inherit;
 	color: #fff;
 }
+
+/*nav ul li a p{*/
+/*	list-style: none;*/
+/*	line-height: inherit;*/
+/*	color: #fff;*/
+/*	position: relative;*/
+/*	margin: 0;*/
+/*	text-align: center;*/
+/*	-webkit-transition: 0.5s all;*/
+/*	opacity: 1;*/
+/*	font-size: 20px;*/
+/*	top: 18px;*/
+/*}*/
+
+.navbar {
+	min-height: 100px;
+}
+
+nav ul li p.icon {
+	opacity: 1;
+	font-size: 20px;
+	top: 38px;
+}
+
 
 nav ul li.logo{
 	float: left;
@@ -377,4 +401,11 @@ ul.share-group
 	z-index: 50;
 	overflow: hidden;
 	text-indent: -9999px;
+}
+
+#top-menu #top-menu-list-desk {
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
