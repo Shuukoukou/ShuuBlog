@@ -1,0 +1,2 @@
+# ShuuBlog
+My New Blog
